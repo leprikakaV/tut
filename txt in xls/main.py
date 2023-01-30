@@ -3,6 +3,7 @@ import glob
 from openpyxl import Workbook
 from pathlib import Path
 
+# Сведение файлов txt со Svan в единый .xlsx файл
 wb = Workbook()
 ws = wb.active
 col = 1
